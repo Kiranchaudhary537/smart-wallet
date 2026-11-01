@@ -1,0 +1,30 @@
+{
+  "name": "smart-wallet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run test:integration",
+    "test:unit": "cargo +1.89.0 test --lib",
+    "test:integration": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "wallet:setup": "node scripts/setup-wallet.mjs",
+    "deploy:devnet": "node scripts/deploy-devnet.mjs",
+    "tools:setup": "cargo install cargo-build-sbf --version 4.0.0 --locked --root .tools",
+    "idl:build": "anchor idl build --out idl.json",
+    "idl:publish": "node scripts/publish-idl.mjs"
+  },
+  "dependencies": {
+    "@solana/web3.js": "1.98.4",
+    "bs58": "6.0.0",
+    "dotenv": "17.2.3"
+  },
+  "devDependencies": {
+    "@solana/kit": "8.6.0",
+    "litesvm": "1.6.1"
+  },
+  "description": "Solana smart wallet with scoped, rate-limited delegate permissions, devnet deployment, and LiteSVM integration tests."
+}

@@ -1,0 +1,10 @@
+{
+  "cluster": "devnet",
+  "programId": "64sQLCxxfgLkTwGGvC8jNq1z4P5H29tTY79EizvpzurH",
+  "seed": "idl",
+  "file": "idl.json",
+  "sha256": "915b94c7a1c758c74882b1d66e2d486bf53a56c06bff37b44de9c93ee87ceae2",
+  "verifiedAt": "2026-11-01T08:50:43.730Z",
+  "instructionCount": 16,
+  "metadataAddress": "B5rx3wpjU1LL2oNMgx3PFiCKrhTnnSEu4wPA7V1xUNZJ"
+}

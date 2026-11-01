@@ -1,0 +1,17 @@
+/target/
+/node_modules/
+/.env
+/.env.*
+!/.env.example
+/.tools/
+/test-ledger/
+*.log
+
+# Secret key files and local machine artifacts
+*-keypair.json
+*-buffer.json
+*.pem
+*.key
+.DS_Store
+coverage/
+.cache/
