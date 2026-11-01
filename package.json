@@ -15,7 +15,8 @@
     "deploy:devnet": "node scripts/deploy-devnet.mjs",
     "tools:setup": "cargo install cargo-build-sbf --version 4.0.0 --locked --root .tools",
     "idl:build": "anchor idl build --out idl.json",
-    "idl:publish": "node scripts/publish-idl.mjs"
+    "idl:publish": "node scripts/publish-idl.mjs",
+    "demo:devnet": "node scripts/demo-devnet.mjs"
   },
   "dependencies": {
     "@solana/web3.js": "1.98.4",

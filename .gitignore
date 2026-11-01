@@ -15,3 +15,6 @@
 .DS_Store
 coverage/
 .cache/
+
+# Local devnet demonstration signing keys
+/.demo/

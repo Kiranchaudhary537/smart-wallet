@@ -1,0 +1,124 @@
+{
+  "version": "0.1.0",
+  "cluster": "devnet",
+  "programId": "64sQLCxxfgLkTwGGvC8jNq1z4P5H29tTY79EizvpzurH",
+  "binarySha256": "f555eb0696cb83b66e5398066355df550c22652f44755948d84a8246f2ae78e7",
+  "sponsor": "DbbLpBziadiwfViJaxnCGhPhaeSwKNSj4wAR4ZuuiJYo",
+  "owner": "8KRs3MqoHqrucP7QMA4J8CSu8bLd7yg9woxEhvcyz65H",
+  "delegate": "4CN5qnRTp2vYYVrkGAHaAS16Ud9cV1jH5JpQ5FggcozK",
+  "wallet": "3G9A2efN337xuYAMDPstVvHR5ZizxccLqwrwvfKyPU9F",
+  "vault": "TqsQF1RWGpxJaiZEFVdQbscx4ixdDBX8xXhcEqGfy5H",
+  "delegateWallet": "dDTtRxortS1nENRGUX2yxZG9JbnMQX7jrGPE62RXt72",
+  "delegateVault": "8yntQFrC4htvR4NmE33zTCqNmtGzEgqpvx8MaBjuV8mT",
+  "usdcMint": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+  "vaultUsdcAccount": "B5Hhx1qsWgCQ6uLq68KpCQqtE1WpEvv1duxMraDYZCAt",
+  "ownerUsdcAccount": "AFckWzccj1j5f8su2vpzXgBWWZgxnBhVW1Z9e7LAy4RJ",
+  "delegateUsdcAccount": "AyPtzNQteFyTWhAddKY6hfcayG9MCYapBg57sqxHBbP",
+  "permissions": {
+    "sol": "CiNVWz6Z6DSTRcGBkVmkzKcW775Zhwrzf5wJFGNdqjzm",
+    "usdc": "AUaH84e63W9aHeWKVpWgifSnu97kAmPTufXfnBwnPCqN",
+    "solLimitLamports": "20000000",
+    "usdcLimitBaseUnits": "2000000",
+    "periodSeconds": 86400,
+    "expiresAt": 1793609994,
+    "allowedRecipient": "4CN5qnRTp2vYYVrkGAHaAS16Ud9cV1jH5JpQ5FggcozK"
+  },
+  "startedAt": "2026-11-01T08:59:54.792Z",
+  "transactions": [
+    {
+      "name": "fund_participant_signers",
+      "signature": "ktEaZgfNaSdVkg1Hc2r6uV7yjD1RFqDm1vrDP8Cqk5Q6CNLchbMNM4nuE95QBGY4vayoVFBgBCcGEZ7PE4Cmab5",
+      "explorer": "https://explorer.solana.com/tx/ktEaZgfNaSdVkg1Hc2r6uV7yjD1RFqDm1vrDP8Cqk5Q6CNLchbMNM4nuE95QBGY4vayoVFBgBCcGEZ7PE4Cmab5?cluster=devnet",
+      "feePayer": "DbbLpBziadiwfViJaxnCGhPhaeSwKNSj4wAR4ZuuiJYo",
+      "instructionCount": 2,
+      "confirmedAt": "2026-11-01T08:59:56.020Z"
+    },
+    {
+      "name": "create_user_wallet",
+      "signature": "2yD3T3sbGM211fccbTuZiSUwZniasuHYaVAKVUmBN1DUVq9Bz7XcTaPE6wZ2uPRvma5Npr4rRwfb81BCQDhBbbyX",
+      "explorer": "https://explorer.solana.com/tx/2yD3T3sbGM211fccbTuZiSUwZniasuHYaVAKVUmBN1DUVq9Bz7XcTaPE6wZ2uPRvma5Npr4rRwfb81BCQDhBbbyX?cluster=devnet",
+      "feePayer": "8KRs3MqoHqrucP7QMA4J8CSu8bLd7yg9woxEhvcyz65H",
+      "instructionCount": 1,
+      "confirmedAt": "2026-11-01T08:59:57.102Z"
+    },
+    {
+      "name": "create_delegate_wallet",
+      "signature": "27eATtJh5P9zaUwjzX1HGmH2ubdUcMSmbQHakk1A18pep3EuksFRJng2EWjqeS7rCZEmtkMToyuC6LyQcUiYZr6x",
+      "explorer": "https://explorer.solana.com/tx/27eATtJh5P9zaUwjzX1HGmH2ubdUcMSmbQHakk1A18pep3EuksFRJng2EWjqeS7rCZEmtkMToyuC6LyQcUiYZr6x?cluster=devnet",
+      "feePayer": "4CN5qnRTp2vYYVrkGAHaAS16Ud9cV1jH5JpQ5FggcozK",
+      "instructionCount": 1,
+      "confirmedAt": "2026-11-01T08:59:57.983Z"
+    },
+    {
+      "name": "create_usdc_accounts",
+      "signature": "2jjw56vJMFhNK9FvKcToEZJpDufEvzvuz6YjQ911wmtgfaHn4aZQksLcTxRBMJq6DTf3dtpxWWMyEFtKFFekpcBi",
+      "explorer": "https://explorer.solana.com/tx/2jjw56vJMFhNK9FvKcToEZJpDufEvzvuz6YjQ911wmtgfaHn4aZQksLcTxRBMJq6DTf3dtpxWWMyEFtKFFekpcBi?cluster=devnet",
+      "feePayer": "DbbLpBziadiwfViJaxnCGhPhaeSwKNSj4wAR4ZuuiJYo",
+      "instructionCount": 3,
+      "confirmedAt": "2026-11-01T08:59:58.836Z"
+    },
+    {
+      "name": "fund_user_vault",
+      "signature": "5nYxa1WX6jkXGmVrrwgBz1QZA4dT6W7tx1zDyFfzRLu9onAyjrJmXgopz19jDvY1MZ119Ejn9kZWFpFUgZ8SJ2bS",
+      "explorer": "https://explorer.solana.com/tx/5nYxa1WX6jkXGmVrrwgBz1QZA4dT6W7tx1zDyFfzRLu9onAyjrJmXgopz19jDvY1MZ119Ejn9kZWFpFUgZ8SJ2bS?cluster=devnet",
+      "feePayer": "DbbLpBziadiwfViJaxnCGhPhaeSwKNSj4wAR4ZuuiJYo",
+      "instructionCount": 2,
+      "confirmedAt": "2026-11-01T08:59:59.767Z"
+    },
+    {
+      "name": "authorize_delegate",
+      "signature": "3Jetg5wmKe6fkDRiqP8P9dutBymWShUej7UhQqCYnvwzr3ZAYh9KDK1CakJFnW4gxTJUpozYYycefm3FUR3y8Eg9",
+      "explorer": "https://explorer.solana.com/tx/3Jetg5wmKe6fkDRiqP8P9dutBymWShUej7UhQqCYnvwzr3ZAYh9KDK1CakJFnW4gxTJUpozYYycefm3FUR3y8Eg9?cluster=devnet",
+      "feePayer": "8KRs3MqoHqrucP7QMA4J8CSu8bLd7yg9woxEhvcyz65H",
+      "instructionCount": 2,
+      "confirmedAt": "2026-11-01T09:00:00.686Z"
+    },
+    {
+      "name": "owner_access_1_transaction",
+      "signature": "4KgghJFhc7iCbQX9hdA545Jj8SCo6pykgF3GseDGPDbQb1GNHk4xkX35rMRT7TgtRzLxKMceoo3z4eK6tRUm4T8v",
+      "explorer": "https://explorer.solana.com/tx/4KgghJFhc7iCbQX9hdA545Jj8SCo6pykgF3GseDGPDbQb1GNHk4xkX35rMRT7TgtRzLxKMceoo3z4eK6tRUm4T8v?cluster=devnet",
+      "feePayer": "8KRs3MqoHqrucP7QMA4J8CSu8bLd7yg9woxEhvcyz65H",
+      "instructionCount": 2,
+      "confirmedAt": "2026-11-01T09:00:02.744Z",
+      "feeLamports": 5000,
+      "slot": 517442605
+    },
+    {
+      "name": "delegate_access_1_sol",
+      "signature": "4i2JFpoJ2cXFX1yVFpLMduVV4mPhR9BGtC8QdM4hQf8mk6ga4D8XqkidQaBLvvDvGUr8NQe5TJApH5YXuDNwpANc",
+      "explorer": "https://explorer.solana.com/tx/4i2JFpoJ2cXFX1yVFpLMduVV4mPhR9BGtC8QdM4hQf8mk6ga4D8XqkidQaBLvvDvGUr8NQe5TJApH5YXuDNwpANc?cluster=devnet",
+      "feePayer": "4CN5qnRTp2vYYVrkGAHaAS16Ud9cV1jH5JpQ5FggcozK",
+      "instructionCount": 1,
+      "confirmedAt": "2026-11-01T09:00:03.514Z",
+      "feeLamports": 5000,
+      "slot": 517442608
+    },
+    {
+      "name": "delegate_access_2_usdc",
+      "signature": "Tba27kj5k6f6BtPKMaVTZsfwvCi6GV15koTf68TfMtjP7e1CYCxDbUtvspq8J2fCNpjHSSBCHLWBCLP6Hc3AJyH",
+      "explorer": "https://explorer.solana.com/tx/Tba27kj5k6f6BtPKMaVTZsfwvCi6GV15koTf68TfMtjP7e1CYCxDbUtvspq8J2fCNpjHSSBCHLWBCLP6Hc3AJyH?cluster=devnet",
+      "feePayer": "4CN5qnRTp2vYYVrkGAHaAS16Ud9cV1jH5JpQ5FggcozK",
+      "instructionCount": 1,
+      "confirmedAt": "2026-11-01T09:00:04.510Z",
+      "feeLamports": 5000,
+      "slot": 517442612
+    }
+  ],
+  "beforeAccess": {
+    "vaultLamports": "100650240",
+    "vaultUsdcBaseUnits": "5000000",
+    "ownerLamports": "45026840",
+    "ownerUsdcBaseUnits": "0",
+    "delegateLamports": "28130640",
+    "delegateUsdcBaseUnits": "0"
+  },
+  "afterAccess": {
+    "vaultLamports": "85650240",
+    "vaultUsdcBaseUnits": "3500000",
+    "ownerLamports": "55021840",
+    "ownerUsdcBaseUnits": "1000000",
+    "delegateLamports": "33120640",
+    "delegateUsdcBaseUnits": "500000"
+  },
+  "completedAt": "2026-11-01T09:00:05.660Z"
+}

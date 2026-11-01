@@ -145,6 +145,22 @@ upgrade authority. It fetches the published IDL, compares it with the local JSON
 and records verification in `deployments/idl-devnet.json`. Temporary key files are
 removed after the command finishes.
 
+## Live owner/delegate demonstration
+
+The [design walkthrough](DESIGN.md) explains the architecture and records a verified
+devnet run: two participant wallets, a deposit of 0.1 SOL and 5 Circle devnet USDC,
+one owner transaction withdrawing both assets, and two delegate transactions
+withdrawing SOL and USDC separately. It includes all nine setup/access transaction
+links, balances, current limitations, and a proposed production user journey.
+
+```sh
+npm run demo:devnet
+```
+
+The completed run is recorded in `deployments/demo-devnet.json`. Rerunning with
+that receipt makes no new transfers. Demo signing keys stay in the ignored `.demo/`
+directory; follow the design document before starting another funded run.
+
 ## Instructions
 
 | Instruction | Authority | Behavior |
